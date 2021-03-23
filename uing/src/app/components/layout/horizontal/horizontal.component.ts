@@ -12,4 +12,8 @@ export class HorizontalComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  getData(){
+    console.log('test');
+  }
+
 }
